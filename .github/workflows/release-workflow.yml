@@ -14,7 +14,7 @@ env:
 jobs:
   test-full:
     permissions:
-      contents: read
+      contents: write
     uses: ./.github/workflows/test-pr-workflow.yml
 
   check-tagger:
